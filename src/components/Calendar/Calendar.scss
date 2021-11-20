@@ -1,0 +1,88 @@
+.calendar {
+  display: flex;
+  background-color: #272829;
+  justify-content: center;
+  width: 40%;
+}
+.calendar_container {
+  align-self: center;
+  color: white;
+  width: 80%;
+  .calendar_header {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: baseline;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 20px;
+    &_data {
+      display: flex;
+      width: 65%;
+      justify-content: space-evenly;
+    }
+    .arr {
+      border: solid #dfdfdf;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 3px;
+      height: 15px;
+      width: 15px;
+    }
+    .left {
+      transform: rotate(135deg);
+    }
+    .right {
+      transform: rotate(-45deg);
+    }
+  }
+}
+.dates {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(auto, 1fr));
+  grid-template-rows: repeat(6, minmax(35px, 1fr));
+  grid-gap: 5px;
+  padding: 30px 15px;
+  .date {
+    cursor: pointer;
+    position: relative;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #dfdfdf;
+    font-weight: 600;
+  }
+  .selected {
+    color: #fdd000;
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 7px;
+      height: 7px;
+      background-color: #fdd000;
+      border-radius: 50%;
+    }
+  }
+  .active {
+    background-color: #fdd000;
+    color: #000;
+  }
+}
+.days {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+.before {
+  color: #dfdfdf;
+  opacity: 0.24;
+}
