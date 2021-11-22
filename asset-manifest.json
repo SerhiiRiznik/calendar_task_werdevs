@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/calendar_task_werdevs/static/css/main.1813295d.chunk.css",
-    "main.js": "/calendar_task_werdevs/static/js/main.85089476.chunk.js",
-    "main.js.map": "/calendar_task_werdevs/static/js/main.85089476.chunk.js.map",
+    "main.css": "/calendar_task_werdevs/static/css/main.9cdfb2a7.chunk.css",
+    "main.js": "/calendar_task_werdevs/static/js/main.566c2b2b.chunk.js",
+    "main.js.map": "/calendar_task_werdevs/static/js/main.566c2b2b.chunk.js.map",
     "runtime-main.js": "/calendar_task_werdevs/static/js/runtime-main.88511433.js",
     "runtime-main.js.map": "/calendar_task_werdevs/static/js/runtime-main.88511433.js.map",
     "static/js/2.b29bd609.chunk.js": "/calendar_task_werdevs/static/js/2.b29bd609.chunk.js",
     "static/js/2.b29bd609.chunk.js.map": "/calendar_task_werdevs/static/js/2.b29bd609.chunk.js.map",
     "index.html": "/calendar_task_werdevs/index.html",
-    "static/css/main.1813295d.chunk.css.map": "/calendar_task_werdevs/static/css/main.1813295d.chunk.css.map",
+    "static/css/main.9cdfb2a7.chunk.css.map": "/calendar_task_werdevs/static/css/main.9cdfb2a7.chunk.css.map",
     "static/js/2.b29bd609.chunk.js.LICENSE.txt": "/calendar_task_werdevs/static/js/2.b29bd609.chunk.js.LICENSE.txt",
     "static/media/Home.scss": "/calendar_task_werdevs/static/media/Artboard.c912d130.png"
   },
   "entrypoints": [
     "static/js/runtime-main.88511433.js",
     "static/js/2.b29bd609.chunk.js",
-    "static/css/main.1813295d.chunk.css",
-    "static/js/main.85089476.chunk.js"
+    "static/css/main.9cdfb2a7.chunk.css",
+    "static/js/main.566c2b2b.chunk.js"
   ]
 }
