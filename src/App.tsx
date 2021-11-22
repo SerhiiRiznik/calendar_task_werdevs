@@ -15,7 +15,7 @@ function App() {
       {show && <PopUp />}
       <Header />
       <Switch>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/calendar_task_werdevs" component={Home} />
         <Route exact path="/about" component={Aboutus} />
       </Switch>
     </div>

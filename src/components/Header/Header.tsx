@@ -19,7 +19,7 @@ const Header = () => {
                 exact
                 className="nav_link"
                 activeClassName="selected"
-                to="/"
+                to="/calendar_task_werdevs"
               >
                 Home
               </NavLink>
